@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#0e1116"/>
+<path d="M0 550 L330 250 L560 470 L860 120 L1200 390 V675 H0Z" fill="#111c27"/>
+<path d="M0 590 L330 290 L560 510 L860 160 L1200 430" fill="none" stroke="#18a8ff" stroke-width="8"/>
+<path d="M0 610 L400 400 L690 560 L950 250 L1200 350" fill="none" stroke="#ff3d4f" stroke-width="3" opacity=".7"/>
+<text x="65" y="105" font-family="Arial" font-size="22" font-weight="700" fill="#b7f34a">CS-499 / PROJECT 01</text>
+<text x="65" y="170" font-family="Arial" font-size="52" font-weight="900" fill="#f5f7fa">SOFTWARE ENGINEERING</text>
+<text x="65" y="215" font-family="Arial" font-size="21" fill="#8c96a3">Replace this placeholder with your project screenshot.</text>
+</svg>
