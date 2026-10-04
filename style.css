@@ -530,6 +530,17 @@ img {
 .card-wide {
   grid-column: span 2;
 }
+/* Project 3 only - RMA analysis screenshot */
+.project-grid > .project-card:nth-child(3) .project-image {
+  aspect-ratio: auto;
+  height: 500px;
+}
+
+.project-grid > .project-card:nth-child(3) .project-image img {
+  object-fit: contain;
+  object-position: center;
+}
+
 
 .closing {
   width: min(var(--max), 92%);
@@ -567,6 +578,12 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
+
+  .project-grid > .project-card:nth-child(3) .project-image {
+    height: 350px;
+  }
+
+
   .nav-links {
     gap: 15px;
   }
