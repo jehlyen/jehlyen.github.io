@@ -654,3 +654,33 @@ footer a:hover {
     align-self: flex-end;
   }
 }
+
+.code-review {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+    margin: 25px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
