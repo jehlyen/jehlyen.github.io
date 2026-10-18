@@ -655,32 +655,51 @@ footer a:hover {
   }
 }
 
-.code-review {
+/* Center and enlarge the Code Review video */
+main > .code-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: none;
+    margin: 60px auto;
+    padding: 40px 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
+main > .code-review h2,
+main > .code-review p {
+    text-align: center;
     max-width: 800px;
-    min-height: 0;
-    aspect-ratio: 4 / 3;
-    margin: 25px auto;
+}
+
+main > .code-review .video-container {
+    position: relative;
+    display: block;
+    width: min(800px, 90vw);
+    height: 600px;
+    max-width: none;
+    margin: 30px auto;
+    padding: 0;
+    aspect-ratio: auto;
     overflow: hidden;
     border-radius: 12px;
 }
 
-.video-container iframe {
+main > .code-review .video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     display: block;
     width: 100%;
     height: 100%;
-    border: none;
+    max-width: none;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    main > .code-review .video-container {
+        width: 100%;
+        height: 450px;
+    }
 }
